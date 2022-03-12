@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->integer('deptid');
             $table->integer('session');
-            $table->tinyInteger('role')->default('0');
+            $table->integer('role');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
