@@ -15,7 +15,7 @@
     {{-- {{ Redirect::to('home') }} --}}
     <script>window.location = "/home";</script>
     @endif
-    <div class="bg-image" style="background-image: url({{url('images/see.jpg')}});
+    <div class="bg-image" style="background-image: url({{url('images/hill.png')}});
     background-size: cover;
       position: absolute;
       top: 0px;
@@ -39,8 +39,8 @@
         <div class="text-center " style="position: relative;  color: #000;  
         font-size: 3rem;
         line-height: 0.9;margin-top:200px">
-            <p>Welcome to Rajshahi local area Volunteer Network</p>
-            <p>Please login to get or provide service</p>
+            <p>Welcome to Faculty Evaluation System</p>
+            <p>Please login to rate Faculty Members</p>
         </div>
     </div>
     <!-- JavaScript Bundle with Popper -->

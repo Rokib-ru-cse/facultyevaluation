@@ -43,32 +43,21 @@
                             </div>
                             <div class="row mb-3">
                                 <label for="user"
-                                    class="col-md-4 col-form-label text-md-end">{{ __('Select Your type') }}</label>
+                                    class="col-md-4 col-form-label text-md-end">{{ __('Enter Your Department ID') }}</label>
                                 <div class="col-md-6">
-                                    <select name="type" required id="user" class="form-select" aria-label="Default select example">
-                                        <option selected>Select Your type</option>
-                                        <option value="user">User</option>
-                                        <option value="volunteer">Volunteer</option>
-                                    </select>
+                                    <input name="deptid" type="number" class="form-control" value="" required autofocus>
                                 </div>
                             </div>
                             <div class="row mb-3">
-                                <label for="word"
-                                    class="col-md-4 col-form-label text-md-end">{{ __('Select Your Word Number') }}</label>
+                                <label for="session"
+                                    class="col-md-4 col-form-label text-md-end">{{ __('Select Your Session') }}</label>
                                 <div class="col-md-6">
-                                    <select name="word" required id="word" class="form-select" aria-label="Default select example">
-                                        <option selected>Select Your Word Number</option>
-                                        @for ($i = 1; $i <= 30; $i++)
+                                    <select name="session" required  class="form-select" aria-label="Default select example">
+                                        <option selected>Select Your Session</option>
+                                        @for ($i = 2015; $i <= 2030; $i++)
                                             <option value="{{ $i }}">{{$i}}</option>
                                         @endfor
                                     </select>
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <label for="phone"
-                                    class="col-md-4 col-form-label text-md-end">{{ __('Your Phone Number') }}</label>
-                                <div class="col-md-6">
-                                    <input id="phone" name="phone" type="number" class="form-control" value="" required autofocus>
                                 </div>
                             </div>
                             <div class="row mb-3">
