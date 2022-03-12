@@ -48,7 +48,7 @@
                                     <input name="deptid" type="number" class="form-control" value="" required autofocus>
                                     <input name="role" type="hidden" class="form-control" value="0" required autofocus>
                                 </div>
-                            </div>
+                            </div> 
                             <div class="row mb-3">
                                 <label for="session"
                                     class="col-md-4 col-form-label text-md-end">{{ __('Select Your Session') }}</label>
